@@ -1,13 +1,14 @@
 //
-//  ContentView.swift
+//  LandmarkList.swift
 //  Landmarks
 //
-//  Created by Sándor Uszkai on 12/10/2023.
+//  Created by Sándor Uszkai on 16/10/2023.
 //
 
+import Foundation
 import SwiftUI
 
-struct ContentView: View {
+struct LandmarkList: View {
     var body: some View {
         NavigationSplitView {
             List(landmarks) { landmark in
@@ -18,7 +19,6 @@ struct ContentView: View {
                 }
             }
             .navigationTitle("Landmarks")
-
         } detail: {
             Text("Select a Landmark")
         }
@@ -27,5 +27,6 @@ struct ContentView: View {
 
 
 #Preview {
-    ContentView()
+    LandmarkList()
 }
+
