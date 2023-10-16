@@ -1,2 +1,2 @@
 # landmarks-ios
-My very fist iOS/SwiftUI project
+My very first iOS/SwiftUI project
